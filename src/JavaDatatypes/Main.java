@@ -5,10 +5,10 @@ public class Main {
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
         System.out.println("Number of data to enter: ");
-        int t= input.nextInt();
+        int t= input.nextInt();//How much value will be received from the user.
 
-        for (int i=0;i<t;i++){
-            try {
+        for (int i=0;i<t;i++){//The loop runs as long as the value received.
+            try {//It is checked whether the value received from the user is within the range.
                 System.out.println("Enter the "+(i+1)+". number");
                 long x=input.nextLong();
                 System.out.println(x+" can be fitted id");
